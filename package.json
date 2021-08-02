@@ -1,6 +1,6 @@
 {
   "name": "mysql-wrap-production",
-  "version": "0.11.2",
+  "version": "0.11.3",
   "description": "Mysql interface and helper functions, wrapping node-mysql",
   "main": "src/mysql-wrap.js",
   "scripts": {
@@ -23,15 +23,15 @@
     "url": "https://github.com/tourmalinelabs/mysql-wrap-production/issues"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "grunt": "^1.0.4",
+    "chai": "^4.3.4",
+    "grunt": "^1.4.1",
     "grunt-mocha-test": "^0.13.3",
-    "mocha": "^6.2.2",
-    "mysql": "^2.17.1"
+    "mocha": "^9.0.3",
+    "mysql": "^2.18.1"
   },
   "dependencies": {
     "bluebird": "^3.7.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "squel": "^5.13.0"
   }
 }
