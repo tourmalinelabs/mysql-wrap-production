@@ -1,4 +1,15 @@
 {
+    "extends": [
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint", 
+        "plugin:prettier/recommended" 
+    ],
+    "plugins": [
+        "@typescript-eslint",
+        "prettier/@typescript-eslint"
+    ],
+    "parser": "@typescript-eslint/parser",
     "ecmaFeatures": {
         "modules": true,
         "jsx": true
