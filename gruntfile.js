@@ -36,6 +36,6 @@ module.exports = function (grunt) {
         del(['build/**/*']).then(() => done());
     });
 
-    grunt.registerTask('compile-to-js', ['clean-build', 'copy', 'ts']);
-    grunt.registerTask('test', ['compile-to-js', 'mochaTest']);
+    grunt.registerTask('build', ['clean-build', 'copy', 'ts']);
+    grunt.registerTask('test', ['build', 'mochaTest']);
 };
