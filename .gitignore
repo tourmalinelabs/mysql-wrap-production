@@ -3,5 +3,4 @@ package-lock.json
 .vagrant
 _test
 .DS_Store
-build
 .tscache
