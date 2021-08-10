@@ -2,3 +2,4 @@ node_modules
 .vagrant
 _test
 .DS_Store
+package-lock.json
