@@ -1,14 +1,24 @@
 {
+    "extends": [
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "prettier" 
+    ],
+    "plugins": [
+        "@typescript-eslint",
+        "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
     "ecmaFeatures": {
-        "modules": true,
-        "jsx": true
+        "modules": true
     },
     "env": {
         "node": true,
-        "mocha": true,
-        "es6": true
+        "mocha": true
     },
     "rules": {
-        "semi": 2
+      "prettier/prettier": "off",
+      "@typescript-eslint/no-var-requires": "off",
+      "space-before-function-paren": "warn"
     }
-}
+  }
