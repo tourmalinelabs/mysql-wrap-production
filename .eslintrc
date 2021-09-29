@@ -17,8 +17,6 @@
         "mocha": true
     },
     "rules": {
-      "prettier/prettier": "off",
-      "@typescript-eslint/no-var-requires": "off",
-      "space-before-function-paren": "warn"
+      "@typescript-eslint/no-var-requires": "off"
     }
   }
